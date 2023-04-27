@@ -1,0 +1,16 @@
+{
+  "name": "Product Extractor",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Click and extract video/description product",
+  "browser_action": {
+      "default_popup": "popup.html", 
+      "default_icon": "icons/icon-255.png"
+  },
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ]
+}
